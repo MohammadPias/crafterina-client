@@ -1,0 +1,36 @@
+.nav-right {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.nav-icon-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.icon {
+    color: #4d4d4d;
+    font-size: 22px;
+}
+
+.cart-text {
+    background-color: #c69c6d;
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.cart-text-shop {
+    top: -7px;
+    left: 65%;
+}
