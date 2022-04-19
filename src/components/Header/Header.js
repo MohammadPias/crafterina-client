@@ -1,4 +1,5 @@
 import React from 'react';
+import Banner from './Banner';
 import NavMenu from './NavMenu';
 import TopNav from './TopNav';
 
@@ -7,6 +8,7 @@ const Header = () => {
         <div>
             <TopNav />
             <NavMenu />
+            <Banner />
         </div>
     );
 };
