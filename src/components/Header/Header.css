@@ -14,6 +14,7 @@
 .icon {
     color: #4d4d4d;
     font-size: 22px;
+    cursor: pointer;
 }
 
 .cart-text {
@@ -21,7 +22,7 @@
     color: white;
     position: absolute;
     top: -10px;
-    left: -5px;
+    left: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,5 +33,30 @@
 
 .cart-text-shop {
     top: -7px;
-    left: 65%;
+    left: 81%;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.user-container {
+    position: relative;
+}
+
+.user-menu {
+    background-color: #f3f2f2;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    padding: 10px 15px;
+    display: none;
+    z-index: 10;
+    border-radius: 8px;
+}
+
+
+.user-container:hover .user-menu {
+    display: block;
 }

@@ -1,0 +1,15 @@
+.login-form {
+    margin: auto;
+    max-width: 450px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+}
+
+.google-login {
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    cursor: pointer;
+    /* background-color: rgb(245, 244, 244); */
+}
